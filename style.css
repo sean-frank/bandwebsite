@@ -59,23 +59,23 @@ CSS STRUCTURE:
 /** 1. VARIABLES
 --------------------------------------------------------------*/
 :root {
-  --primary-color: #1D1D1D;
-  --black-color: #1D1D1D;
+  --primary-color: #ffffff;
+  --black-color: #000000;
   --white-color:#ffffff;
   --light-black-color: #7A7A7A;
   --dark-color: #707070;
-  --primary-color-200: #6E876A;
+  --primary-color-200: #1f6976;
   --primary-color-400: #c4e9ed;
   --gray-color: #E6E6E6;
-  --bs-body-bg: #ffffff;
+  --bs-body-bg: rgba(0, 0, 0, 0.957);
   --bs-dark-rgb: 80, 80, 80;
-  --bs-gray-100: #707070;
-  --bs-gray-300: #DCDCDC;
+  --bs-gray-100: #ffffff;
+  --bs-gray-300: #ffffff;
   --bs-primary-text-emphasis: var(--primary-color);
   --bs-light-rgb: rgba(255, 255, 255, 1);
-  --bs-primary-rgb: rgb(110,135,106);
+  --bs-primary-rgb: rgb(255, 0, 221);
   --light-color: #ffffff;
-  --swiper-theme-color: #111 !important;
+  --swiper-theme-color: #390cdb !important;
   --cadet-blue-color: #9AB4B7;
 }
 
@@ -766,10 +766,10 @@ select:focus {
 }
 
 .nav-icon {
-  color: var(--primary-color)
+  color: var(--white-color)
 }
 .nav-icon svg:hover{
-  color:var(--primary-color-200)
+  color:var(--white-color)
 }
 
 a.nav-link {
